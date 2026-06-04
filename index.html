@@ -4497,53 +4497,254 @@ td{padding:10px 14px;font-size:.76rem;color:var(--tx2);vertical-align:middle}
 
 <!-- ===== CONTACT PAGE ===== -->
 <div class="page" id="page-contact">
+
   <div class="hero-banner animate-in">
     <div class="hero-content">
       <div class="hero-badge">Contact and Partnership</div>
-      <div class="hero-title">Ready to Protect Your<br><span>Lone Workers?</span></div>
-      <div class="hero-sub">Request an 8-week pilot, schedule a demo, or discuss partnership opportunities. Vamsi or Sriveni will respond personally within 24 hours.</div>
-    </div>
-  </div>
-  <div class="grid-3 animate-in" style="margin-bottom:24px">
-    <div class="contact-info-card"><div class="contact-info-ic b"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><div class="contact-info-label">Email</div><div class="contact-info-val">sentineliqaiuk@outlook.com</div><div class="contact-info-sub">Personal response within 24 hours</div></div></div>
-    <div class="contact-info-card"><div class="contact-info-ic a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="contact-info-label">Location</div><div class="contact-info-val">London and Hertfordshire, UK</div><div class="contact-info-sub">Pilot region: London, Essex, Herts</div></div></div>
-    <div class="contact-info-card"><div class="contact-info-ic ok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 22 21 2 21"/><line x1="12" y1="9" x2="12" y2="13"/></svg></div><div><div class="contact-info-label">Pilot Line</div><div class="contact-info-val">Available 9am to 6pm GMT</div><div class="contact-info-sub">For operators with urgent safety needs</div></div></div>
-  </div>
-  <div class="grid-3-2 animate-in" style="margin-bottom:24px">
-    <div class="contact-form-panel">
-      <h3 style="margin-bottom:18px">Send a Message</h3>
-      <div class="form-grid">
-        <div class="form-group"><label class="form-label">Name<span>*</span></label><input class="form-input" id="c-name" placeholder="Your full name"/></div>
-        <div class="form-group"><label class="form-label">Email<span>*</span></label><input class="form-input" id="c-email" type="email" placeholder="your@email.com"/></div>
-        <div class="form-group full"><label class="form-label">Organisation</label><input class="form-input" id="c-org" placeholder="Forecourt or company name"/></div>
-        <div class="form-group full"><label class="form-label">Enquiry Type<span>*</span></label>
-          <select class="form-select" id="c-subject">
-            <option value="">Select type...</option>
-            <option>Pilot Programme Request</option>
-            <option>Platform Demo</option>
-            <option>Partnership or Reseller</option>
-            <option>Investor Enquiry</option>
-            <option>General Enquiry</option>
-          </select>
-        </div>
-        <div class="form-group full"><label class="form-label">Message<span>*</span></label><textarea class="form-textarea" id="c-msg" placeholder="Tell us about your forecourt operations and safety challenges..."></textarea></div>
-        <div class="form-group full"><div class="form-row-check"><input type="checkbox" class="form-check" id="c-consent"/><label class="form-check-lbl" for="c-consent">I agree to SentinelIQ AI's <a href="#">Privacy Policy</a> and consent to being contacted.</label></div></div>
+      <div class="hero-title">
+        Ready to Protect Your<br><span>Lone Workers?</span>
       </div>
-      <div class="modal-actions"><button class="modal-submit" onclick="submitContact()">Send Message</button></div>
+      <div class="hero-sub">
+        Request an 8-week pilot, schedule a demo, or discuss partnership opportunities.
+        Vamsi or Sriveni will respond personally within 24 hours.
+      </div>
     </div>
+  </div>
+
+  <div class="grid-3 animate-in" style="margin-bottom:24px">
+
+    <div class="contact-info-card">
+      <div class="contact-info-ic b">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+          <polyline points="22,6 12,13 2,6"/>
+        </svg>
+      </div>
+      <div>
+        <div class="contact-info-label">Email</div>
+        <div class="contact-info-val">sentineliqaiuk@outlook.com</div>
+        <div class="contact-info-sub">Personal response within 24 hours</div>
+      </div>
+    </div>
+
+    <div class="contact-info-card">
+      <div class="contact-info-ic a">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+      </div>
+      <div>
+        <div class="contact-info-label">Location</div>
+        <div class="contact-info-val">London and Hertfordshire, UK</div>
+        <div class="contact-info-sub">Pilot region: London, Essex, Herts</div>
+      </div>
+    </div>
+
+    <div class="contact-info-card">
+      <div class="contact-info-ic ok">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polygon points="12 2 22 21 2 21"/>
+          <line x1="12" y1="9" x2="12" y2="13"/>
+        </svg>
+      </div>
+      <div>
+        <div class="contact-info-label">Pilot Line</div>
+        <div class="contact-info-val">Available 9am to 6pm GMT</div>
+        <div class="contact-info-sub">For operators with urgent safety needs</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="grid-3-2 animate-in" style="margin-bottom:24px">
+
+    <!-- CONTACT FORM -->
+    <div class="contact-form-panel">
+
+      <h3 style="margin-bottom:18px">Send a Message</h3>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="14d7e6d8-8700-41ad-ad95-b3d2b704848b">
+        <input type="hidden" name="subject" value="New SentinelIQ AI Demo Request">
+        <input type="hidden" name="from_name" value="SentinelIQ AI Website">
+
+        <div class="form-grid">
+
+          <div class="form-group">
+            <label class="form-label">Name<span>*</span></label>
+            <input
+              class="form-input"
+              type="text"
+              name="name"
+              placeholder="Your full name"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email<span>*</span></label>
+            <input
+              class="form-input"
+              type="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+            >
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label">Organisation</label>
+            <input
+              class="form-input"
+              type="text"
+              name="organisation"
+              placeholder="Forecourt or company name"
+            >
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label">Enquiry Type<span>*</span></label>
+            <select
+              class="form-select"
+              name="enquiry_type"
+              required
+            >
+              <option value="">Select type...</option>
+              <option>Pilot Programme Request</option>
+              <option>Platform Demo</option>
+              <option>Partnership or Reseller</option>
+              <option>Investor Enquiry</option>
+              <option>General Enquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label">Message<span>*</span></label>
+            <textarea
+              class="form-textarea"
+              name="message"
+              placeholder="Tell us about your forecourt operations and safety challenges..."
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group full">
+            <div class="form-row-check">
+              <input
+                type="checkbox"
+                class="form-check"
+                id="c-consent"
+                required
+              >
+              <label class="form-check-lbl" for="c-consent">
+                I agree to SentinelIQ AI's Privacy Policy and consent to being contacted.
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="modal-actions">
+          <button type="submit" class="modal-submit">
+            Send Message
+          </button>
+        </div>
+
+      </form>
+
+    </div>
+
+    <!-- SIDEBAR -->
     <div>
+
       <div class="card card-top3" style="margin-bottom:16px">
         <h4 style="margin-bottom:10px">Join the Pilot Programme</h4>
-        <p style="font-size:.74rem">8–12 week baseline deployment pilot. Zero integration friction. Proven ROI before you commit to paid B2B SaaS subscription.</p>
-        <button class="btn-prim" onclick="openDemo()" style="margin-top:12px;width:100%;justify-content:center">Apply for Pilot</button>
+        <p style="font-size:.74rem">
+          8–12 week baseline deployment pilot. Zero integration friction.
+          Proven ROI before you commit to paid B2B SaaS subscription.
+        </p>
+        <button
+          class="btn-prim"
+          onclick="openDemo()"
+          style="margin-top:12px;width:100%;justify-content:center"
+        >
+          Apply for Pilot
+        </button>
       </div>
+
       <h4 style="margin-bottom:12px">Frequently Asked Questions</h4>
-      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">How quickly can we deploy?<div class="faq-q-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div><div class="faq-a">Year 1 pilots deploy within 48 hours via CSV and manual rota inputs — no IT approvals or integrations required.</div></div>
-      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">Does it work offline?<div class="faq-q-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div><div class="faq-a">Yes. Robust fallback mechanisms including manual inputs, default baseline templates, and editable site risk profiles ensure operation in any data environment.</div></div>
-      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">Is it HSE compliant?<div class="faq-q-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div><div class="faq-a">Fully. Escalation pathways mapped directly to INDG73 and INDG424. Manager override reason capture creates the legally auditable compliance trail HSE inspectors require.</div></div>
-      <div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q">How does pricing work?<div class="faq-q-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div><div class="faq-a">Three tiers: Logic Core £100/site, DNA Architect £380/site, Logic Sovereign £250/site. One-time setup £500. Forensic audit £550. All tiers convert from 8–12 week pilot on verified ROI metrics.</div></div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">
+          How quickly can we deploy?
+          <div class="faq-q-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"/>
+              <line x1="5" y1="12" x2="19" y2="12"/>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-a">
+          Year 1 pilots deploy within 48 hours via CSV and manual rota inputs —
+          no IT approvals or integrations required.
+        </div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">
+          Does it work offline?
+          <div class="faq-q-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"/>
+              <line x1="5" y1="12" x2="19" y2="12"/>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-a">
+          Yes. Robust fallback mechanisms including manual inputs, default baseline
+          templates, and editable site risk profiles ensure operation in any data environment.
+        </div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">
+          Is it HSE compliant?
+          <div class="faq-q-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"/>
+              <line x1="5" y1="12" x2="19" y2="12"/>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-a">
+          Fully. Escalation pathways mapped directly to INDG73 and INDG424.
+          Manager override reason capture creates the legally auditable compliance trail HSE inspectors require.
+        </div>
+      </div>
+
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">
+          How does pricing work?
+          <div class="faq-q-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"/>
+              <line x1="5" y1="12" x2="19" y2="12"/>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-a">
+          Three tiers: Logic Core £100/site, DNA Architect £380/site,
+          Logic Sovereign £250/site. One-time setup £500. Forensic audit £550.
+          All tiers convert from 8–12 week pilot on verified ROI metrics.
+        </div>
+      </div>
+
     </div>
+
   </div>
+
 </div>
 
 
